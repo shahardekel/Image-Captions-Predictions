@@ -9,5 +9,8 @@ For the image preprocess I'll use ResNet50- a model to extract features from the
 For the caption preprocess, I'll create a mapping between the encoded vetor to its translation into a sequence of words, and then use word embeddings- convert each word to a vector using the GloVe algorithm.
 The unique words will be loaded to the predictiong model in a form of an embedding matrix.
 
-After all that, I'll create a predictive model with 2 parts- image and caption, that will be able to predict a probability for each word suggested to be in the caption for the image.
+After all that, I'll create a predictive model with 2 parts- image and caption, that will be able to predict a probability for each word suggested to be in the caption for the image. <br>
 To sum it up, I'll evaluate my model with the BLEU score- an algorithm for evaluating the quality of text which has been machine-translated from one natural language to another, with different weights (1-gram, 2-gram, 3-gram and 4-gram).
+
+Image dataset- https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip
+GloVe algorithm (download as txt file- https://www.kaggle.com/datasets/watts2/glove6b50dtxt
