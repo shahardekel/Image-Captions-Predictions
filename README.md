@@ -12,5 +12,6 @@ The unique words will be loaded to the predictiong model in a form of an embeddi
 After all that, I'll create a predictive model with 2 parts- image and caption, that will be able to predict a probability for each word suggested to be in the caption for the image. <br>
 To sum it up, I'll evaluate my model with the BLEU score- an algorithm for evaluating the quality of text which has been machine-translated from one natural language to another, with different weights (1-gram, 2-gram, 3-gram and 4-gram). <br>
 
-Image dataset- https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip <br>
+Image dataset- https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip 
+
 GloVe algorithm (download as txt file- https://www.kaggle.com/datasets/watts2/glove6b50dtxt
